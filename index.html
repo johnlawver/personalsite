@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>John Lawver</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="header-container container">
+        <div class="header-body">
+          <h1 class="header-logo"><span>John</span>Lawver</h1>
+          <div class="header-content">
+            <nav class="header-menu">
+              <ul class="header-menu-list">
+                <li class="header-menu-item">
+                  <a href="#" class="header-menu-link">Home</a>
+                </li>
+                <li class="header-menu-item">
+                  <a href="#about" class="header-menu-link">About</a>
+                </li>
+                <li class="header-menu-item">
+                  <a href="#" class="header-menu-link">Projects</a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header-theme-toggle">
+              <img
+                class="moon-icon"
+                src="/img/moon.svg"
+                alt="Moon-Switch to dark theme"
+              />
+              <img
+                class="sun-icon hidden"
+                src="/img/sunrise.svg"
+                alt="Sunrise-Switch to light theme"
+              />
+            </div>
+            <div class="header-mobile">
+              <div class="header-mobile-menu">
+                <button class="header-mobile-icon">
+                  <svg
+                    viewBox="0 0 16 16"
+                    height="16"
+                    width="16"
+                    role="img"
+                    class="svg-icon"
+                    stroke-width="2"
+                    stroke-linecap="round"stroke-linejoin="round"
+                  >
+                  <line stroke="currentColor" x1="2" y1="3" x2="15" y2="3"></line>
+                  <line stroke="currentColor" x1="2" y1="9" x2="15" y2="9"></line>
+                  <line stroke="currentColor" x1="2" y1="15" x2="15" y2="15"></line>
+                  </svg>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main-container container">
+        <div class="section-body">
+          <div class="section-content">
+            <h1 class="section-header">Hey, my name is <span>John</span></h1>
+            <span class="section-subheading"> & I'm a Front-End Dev</span>
+
+            <p class="section-paragraph">
+              Well, I'm a (mostly) front end engineer working for a global
+              health and wellness e-commerce company anyhow. Recently I have
+              helped to implement our Autoship and Save feature and revamped our
+              legacy orders ui using
+              <em>React</em>. In my day to day I'va also recently been exposed
+              to quite a bit of <em>C#</em> which I'm picking up slowly but
+              surely. Thus the "mostly" moniker.
+            </p>
+          </div>
+          <div class="section-img">
+            <img
+              src="/img/portrait.svg"
+              alt="A drawn portrait of myself"
+            />
+          </div>
+        </div>
+        <div class="section-body" id="about">
+            <div class="section-img" id="about-image">
+              <img
+                src="/img/aboutme.svg"
+                alt="Man working on laptop at a desk. illustrated by Vivek of glazestock.com"
+              />
+            </div>
+            <div class="section-content">
+              <h1 class="section-header">About <span>Me</span></h1>
+  
+              <p class="section-paragraph">
+                I live in California with my wife, daughter and dog, Nash. When Im not at my computer you can find me in the wild, rock climbing with family and friends, taking the dog and baby on hikes, to parks, or in persuit of any adventures we can get ourselves wrapped up in. If Im not outside im tinkering and creating, I love hobby electronics, crafts, and baking bread. 
+              </p>
+            </div>
+          </div>
+      </div>
+    </main>
+  </body>
+  <script src="app.js"></script>
+</html>
